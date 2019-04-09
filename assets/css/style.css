@@ -1,0 +1,100 @@
+/*-- Fonts---*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+{
+    height: 100vh;
+    background: url(../assets/background.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+/*------------------------ Colours */
+
+.navbar-header,
+.navbar-nav,
+a {
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+}
+
+/*------------------------ Special paddings/margins/text*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*------------------------ Heading */
+
+.navbar {
+    background-color: #000000;
+    font-style: italic;
+    font-size: 1em;
+}
+
+#logo {
+    height: 125px;
+    width: 250px;
+}
+
+
+/*---------- Article  --*/ 
+
+.background-tile{
+    height: 100vh;
+    background: url("../assets/background.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*------------Footer */
+
+footer {
+    background-color: #000000;
+} 
+
+.footer-image {
+    margin: 0;
+}
+
+.general-sub {
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+    color: #000000;
+    float: inherit;
+}
+
+.social-links li a i {
+    float: right;
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #000000;
+    background-color: #ff0000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
