@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Cabin%7CUbuntu" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>The Monkees</title>
 </head>
 
@@ -25,7 +25,11 @@
                 <div class="navbar-header">
                     <a href="index.html" class="navbar-left navbar-brand mr-0 uppercase">Hey hey we're the</a>
                 </div>
-                <span class="navbar-left"><img src="../assets/monkees-logo.png" id="logo"></img></span>
+                <span class="navbar-left"> 
+                
+                <!--<img src="../assets/monkees-logo.png" id="logo"></img> -->
+                
+                </span>
                 <ul class="nav navbar-nav uppercase">
                     <li><a href="#">Pictures</a></li>
                     <li><a href="#">Videos</a></li>
@@ -39,21 +43,37 @@
 
     </header>
     <article>
-        <div class="container-fluid background-tile">
-            
-        </div>
+        <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+
+                    <hr class="block-divider block-divider--orange">
+
+                    <p class="lead">Sign up today to start recieving the world's best whiskeys every month.
+                        <s class="d-none d-sm-inline">€19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>The first one is free!</mark></strong></p>
+
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Book us!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
+                </section>
     </article>
     <footer>
         <div class="footer">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="index.html" class="footer-image"><img src="../assets/cover2.png"></a>
+                    <a href="index.html" class="footer-image">
+                        <img src="../assets/cover2.png">
+                    </a>
                 </div>
                 <div class="col-sm-4">
                     <div class="bookings-link">
-                        <h5 class="general-sub"></h5>
-                        <a href="#" class="booking-the-boys">You want to party with the Monkees?</a>
+                        <a href="#" class="booking-the-boys">
+                            <h5 class="general-sub">Party with the Monkees?</h5>
+                            <img class="book-now" src="../assets/book-now.png"></img>
+                        
+                        </a>
                     </div> 
+                    
                 </div>
                 <div class="col-sm-4">
                     <h5 class="uppercase general-sub">Check out our social media for more...</h5>

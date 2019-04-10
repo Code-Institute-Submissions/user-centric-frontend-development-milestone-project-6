@@ -3,25 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-{
-    height: 100vh;
-    background: url(../assets/background.jpg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
+body {}
 
 
-
-/*------------------------ Colours */
-
-.navbar-header,
-.navbar-nav,
 a {
     font-family: 'Indie Flower', cursive;
     text-decoration: none;
@@ -49,36 +33,42 @@ a {
 }
 
 
-/*---------- Article  --*/ 
 
-.background-tile{
+.callout-container {
     height: 100vh;
-    background: url("../assets/background.jpg") no-repeat bottom right fixed;
+    background: url("/../assets/background.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
+
 
 /*------------Footer */
 
 footer {
     background-color: #000000;
-} 
+    margin: 0;
+}
+
 
 .footer-image {
     margin: 0;
+    height: auto;
+    width: auto;
 }
 
 .general-sub {
     font-family: 'Indie Flower', cursive;
+    text-align: center;
     text-decoration: none;
-    color: #000000;
-    float: inherit;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+}
+
+.book-now {
+    height: 180px;
 }
 
 .social-links li a i {
@@ -97,4 +87,3 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
