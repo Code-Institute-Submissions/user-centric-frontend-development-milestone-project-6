@@ -2,15 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-body {}
+body{
+    
+}
 
 
 a {
     font-family: 'Indie Flower', cursive;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     text-transform: none;
+    cursor: pointer;
 }
 
 /*------------------------ Special paddings/margins/text*/
@@ -22,10 +24,13 @@ a {
 /*------------------------ Heading */
 
 .navbar {
-    background-color: #000000;
+    background-color: transparent;
     font-style: italic;
     font-size: 1em;
 }
+
+
+/*----------Images */
 
 #logo {
     height: 125px;
@@ -36,12 +41,27 @@ a {
 
 .callout-container {
     height: 100vh;
-    background: url("/../assets/background.jpg") no-repeat bottom right fixed;
+    background: url("/assets/images/background.jpg") no-repeat bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    z-index: 1;
 }
+
+.jumbotron {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*------------Footer */
