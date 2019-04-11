@@ -2,9 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-body{
-    
+body {
+
+    height: 100vh;
+    background: url("/assets/images/groovy.jpg");
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+
 }
+
 
 
 a {
@@ -27,30 +35,64 @@ a {
     background-color: transparent;
     font-style: italic;
     font-size: 1em;
+    position: inherit;
+    width: 100vw;
+    height: 170px;
+    z-index: 1;
+}
+
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 2em;
+    color: #000000;
+    margin-right: 20px;
+
+}
+
+.navbar-nav {
+    display: inline-block;
+}
+
+
+.inline-item{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 2em;
+    color: #ffffff;
+    margin-right: 10px;
 }
 
 
 /*----------Images */
 
 #logo {
-    height: 125px;
-    width: 250px;
+    margin-left: 40px;
+    height: 90px;
+    width: 120px;
 }
 
 
 
+
+/*--
 .callout-container {
-    height: 100vh;
-    background: url("/assets/images/background.jpg") no-repeat bottom right;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: 1;
+    
+    
 }
+--*/
 
 .jumbotron {
-    background-color: transparent;
+
+    color: #bada25;
+    margin-top: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 66;
+    position: relative;
+    left: auto;
+    right: auto;
+    border-radius: 50px;
+
 }
 
 
@@ -67,9 +109,11 @@ a {
 /*------------Footer */
 
 footer {
-    background-color: #000000;
+    background-color: transparent;
     margin: 0;
 }
+
+
 
 
 .footer-image {
@@ -82,13 +126,13 @@ footer {
     font-family: 'Indie Flower', cursive;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    background-color: transparent;
     float: left;
     margin: 0;
 }
 
 .book-now {
-    height: 180px;
+    height: 150px;
 }
 
 .social-links li a i {
