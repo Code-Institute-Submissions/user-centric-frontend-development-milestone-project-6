@@ -29,7 +29,7 @@ a {
     text-transform: uppercase;
 }
 
-/*------------------------ Heading */
+/*------------------------ Header */
 
 .navbar {
     background-color: transparent;
@@ -63,9 +63,6 @@ a {
     margin-right: 10px;
 }
 
-
-/*----------Images */
-
 #logo {
     margin-left: 40px;
     height: 90px;
@@ -95,7 +92,10 @@ a {
 
 }
 
-
+.embed-responsive-item {
+    border-width:5px;  
+    border-style:dotted solid;
+}
 
 
 
@@ -111,6 +111,11 @@ a {
 footer {
     background-color: transparent;
     margin: 0;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+    color: #000000;
+    text-transform: none;
+    cursor: pointer;
 }
 
 
