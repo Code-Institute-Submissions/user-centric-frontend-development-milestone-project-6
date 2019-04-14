@@ -4,23 +4,26 @@
 
 body {
 
-    height: 100vh;
+    height: 100%;
     background: url("/assets/images/groovy.jpg");
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 
 
-a {
+a{
     font-family: 'Indie Flower', cursive;
     text-decoration: none;
-    color: #000000;
+    color: #fff;
     text-transform: none;
+    text-shadow: 2px 2px #ff0000;
     cursor: pointer;
+    text-shadow: 2px 2px #ff0000;
 }
 
 /*------------------------ Special paddings/margins/text*/
@@ -29,6 +32,26 @@ a {
     text-transform: uppercase;
 }
 
+.headings {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    text-transform: none;
+    text-shadow: 2px 2px #7c18ea;
+    text-shadow: 2px 2px #4e568b;
+    margin: 20px 0 20px;
+}
+
+
+p{
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 20px;
+    
+    
+    
+}
 /*------------------------ Header */
 
 .navbar {
@@ -55,7 +78,7 @@ a {
 }
 
 
-.inline-item{
+.inline-item {
     display: inline-block;
     font-weight: 900;
     font-size: 2em;
@@ -67,7 +90,7 @@ a {
     margin-left: 40px;
     height: 90px;
     width: 120px;
-}
+}    
 
 
 
@@ -82,26 +105,70 @@ a {
 .jumbotron {
 
     color: #bada25;
-    margin-top: 15%;
     background-color: rgba(0, 0, 0, 0.5);
     width: 66;
     position: relative;
     left: auto;
     right: auto;
     border-radius: 50px;
+    font-size: 20px;
 
 }
 
-.embed-responsive-item {
-    border-width:5px;  
-    border-style:dotted solid;
+.jumbotron-pic {
+    background-image: url("/assets/images/directors-chair.jpg");
+    
+    
+}
+
+.btn--red {
+    background-color: #fff;
+    cursor: pointer;
 }
 
 
+/* Videos */
 
+.video {
+    width: 100%;
+    height: 100%;
+    border-width: 5px;
+    border-style: dotted solid;
+}
 
+/* bios */
 
+#mug-shot {
+    width: 15em;
+    height: 20em;
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.header-monkee {
+    text-align: center;
+    padding: 15px;
+}
+
+.signature {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: right;
+}
+
+.media {
+    background-color: rgba(255,255,255,0.5);
+    padding: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 
@@ -134,6 +201,7 @@ footer {
     background-color: transparent;
     float: left;
     margin: 0;
+    text-shadow: 2px 2px #ff0000;
 }
 
 .book-now {
