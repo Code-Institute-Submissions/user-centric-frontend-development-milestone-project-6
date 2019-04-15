@@ -94,6 +94,9 @@ p{
 
 
 
+.block-divider {
+    padding: 23px ;
+}
 
 /*--
 .callout-container {
@@ -162,6 +165,16 @@ p{
     text-align: right;
 }
 
+.album-year {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+    text-align: center;
+}
+
+.albums-section {
+    margin-bottom: 50px;
+}
+
 .media {
     background-color: rgba(255,255,255,0.5);
     padding: 15px;
@@ -174,13 +187,56 @@ p{
   width: 50%;
 }
 
+.center-spotify {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+
 .text-muted{
     text-align: center;
     
 }
 
+/* -- Albums --*/
 
 
+.albums-section {
+    margin-top: 38px;
+}
+.albums > ol {
+  display: block;
+  list-style-type: decimal;
+  margin: 1em 0 1em 0;
+  padding-left: 40px;
+}
+
+.track-list {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.album-cover{
+    width: 18em;
+    height: 18em;
+}
+
+
+.album-divider {
+    display: inline-block;
+    padding: 30px;
+    min-height: 20px;
+    min-width: 10%;
+}
+
+.album-title{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 900;
+    font-size: 3em;
+    text-shadow: 2px 2px #fff000;
+}
 
 /*------------Footer */
 
