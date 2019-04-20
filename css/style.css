@@ -2,7 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-body,html { 
+body,
+html {
     width: 100%;
     height: 100%;
     background: url("/assets/images/groovy.jpg");
@@ -15,7 +16,7 @@ body,html {
 
 
 
-a{
+a {
     font-family: 'Indie Flower', cursive;
     text-decoration: none;
     color: #fff;
@@ -44,16 +45,15 @@ a{
 }
 
 
-p{
+p {
     font-family: 'Indie Flower', sans-serif;
     font-size: 20px;
-    
-    
-    
+
+
+
 }
+
 /*------------------------ Header */
-
-
 
 .navbar {
     top: 0;
@@ -94,38 +94,37 @@ p{
     margin-left: 40px;
     height: 90px;
     width: 120px;
-} 
+}
 
 /* dropdown */
 
-
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-item {
-  position: absolute;
-  background-color: #000000;
-  min-width: 160px;
-  box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.1);
-  padding: 12px 16px;
-  z-index: 1;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.1);
+    padding: 12px 16px;
+    z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 
 
 .block-divider {
-    padding: 23px ;
+    padding: 23px;
 }
 
 
 .callout-container {
-     text-align: center;
+    text-align: center;
 }
 
 .jumbotron {
@@ -143,7 +142,13 @@ p{
 
 }
 
-.monkee-intro
+.jumbotron-link {
+    margin: 15px 0 15px;
+}
+
+.monkee-intro {
+    
+}
 
 /* Form */
 
@@ -172,14 +177,14 @@ p{
 
 /* bookings */
 
-
 .booking-banner {
     text-align: center;
-    
+
 }
-.booking-heading{
+
+.booking-heading {
     display: inline-block;
-    background-color: rgba(255,255,255,0.5); 
+    background-color: rgba(255, 255, 255, 0.5);
     max-width: 66%;
     margin-bottom: 50px;
 }
@@ -190,7 +195,7 @@ p{
 /* bios */
 
 .section-intro {
-    margin-bottom: 60px;
+    margin: 15px 0 15px;
 }
 
 #mug-shot {
@@ -204,6 +209,11 @@ p{
 .header-monkee {
     text-align: center;
     padding: 15px;
+}
+
+.video-intro {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
 }
 
 .signature {
@@ -224,53 +234,53 @@ p{
 }
 
 .media {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 15px;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.rounded-edges{
+.rounded-edges {
     border-radius: 10px;
 }
 
 .center-spotify {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 
 
-.text-muted{
+.text-muted {
     text-align: center;
-    
+
 }
 
 /* -- Albums --*/
 
-
 .albums-section {
     margin-top: 38px;
 }
-.albums > ol {
-  display: block;
-  list-style-type: decimal;
-  margin: 1em 0 1em 0;
-  padding-left: 40px;
+
+.albums>ol {
+    display: block;
+    list-style-type: decimal;
+    margin: 1em 0 1em 0;
+    padding-left: 40px;
 }
 
 .track-list {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-.album-cover{
+.album-cover {
     width: 18em;
     height: 18em;
 }
@@ -283,7 +293,7 @@ p{
     min-width: 10%;
 }
 
-.album-title{
+.album-title {
     font-family: 'Indie Flower', cursive;
     font-weight: 900;
     font-size: 3em;
@@ -309,8 +319,8 @@ footer {
 
 .merch {
     text-align: center;
-    
-    
+
+
 }
 
 .general-sub {
