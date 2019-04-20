@@ -146,6 +146,10 @@ p {
     margin: 15px 0 15px;
 }
 
+.wrapper {
+    margin: 40px 0 40px;
+}
+
 .monkee-intro {
     
 }
@@ -153,9 +157,9 @@ p {
 /* Form */
 
 .form-group {
-    max-width: 400px;
-    min-width: 200px;
+    max-width: 100%;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 
@@ -163,6 +167,7 @@ p {
     display: inline-block;
     background-color: black;
     color: #fff;
+    margin: 15px 0 15px 
 }
 
 /* Videos */
@@ -187,6 +192,29 @@ p {
     background-color: rgba(255, 255, 255, 0.5);
     max-width: 66%;
     margin-bottom: 50px;
+    padding: 0 15px 0 15px;
+}
+
+.form-heading{
+    margin: 10px 0 20px;
+}
+
+.form-row{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-colour{
+    display: inline-block;
+    background-color: rgba(255,255,255,0.75);
+    max-width: 60%;
+    border-radius: 16px;
+    
 }
 
 
@@ -214,6 +242,7 @@ p {
 .video-intro {
     background-color: rgba(255, 255, 255, 0.5);
     font-size: 2em;
+    padding: 0 15px 0 15px;
 }
 
 .signature {
@@ -246,7 +275,7 @@ p {
 }
 
 .rounded-edges {
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 .center-spotify {
@@ -300,6 +329,22 @@ p {
     text-shadow: 2px 2px #fff000;
 }
 
+
+/* pictures.html*/  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------Footer */
 
 footer {
@@ -352,4 +397,26 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .book-now {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 571px){
+    .merch {
+        margin: 20px 0 20px;
+    }
+    
+    .general-sub{
+        margin: 20px 0 20px;
+    }
+    
+    .social-header{
+       margin: 20px 0 20px; 
+    }
 }
