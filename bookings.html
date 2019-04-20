@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Cabin%7CUbuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>The Monkees</title>
@@ -27,12 +26,24 @@
                     <a href="index.html" class="navbar-left navbar-brand mr-0 uppercase">Hey hey we're the</a>
                     <img src="../assets/images/monkees-logo.png" id="logo"></img>
                 </div>
-                <ul class="list-inline nav navbar-nav">
+
+
+
+                <ul class="list-inline nav navbar-nav d-none d-md-block">
                     <li class="inline-item"><a href="music.html">Music</a></li>
-                    <li class="inline-item"><a href="#">Videos</a></li>
-                    <li class="inline-item"><a href="#">Fan Experiences</a></li>
                     <li class="inline-item"><a href="bookings.html">Book the Boys</a></li>
                 </ul>
+
+
+                <div class="dropdown d-md-none">
+                    <button class="btn btn-secondary dropdown-toggle hidden-md-up" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Monkee Menu</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                        <a class="dropdown-item" href="music.html">Music</a>
+                        <a class="dropdown-item" href="bookings.html">Bookings</a>
+                        <a class="dropdown-item">Yet to fill</a>
+                    </div>
+                </div>
+
             </div>
 
         </nav>
@@ -52,10 +63,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-4 offset-4 bg-success">
+                    <p class="uppercase form-direction"></p>Fill in the form below and we'll be back you</p>
                     <form>
                         <div class="form-group">
-                            <input type="text" name="" />
-                            <input type="submit" value="Submit" />
+                            <label for="formControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="formControlInput1" placeholder="name@domain.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="formControlSelect1">Venue Capactiy</label>
+                            <select class="form-control" id="formControlSelect1">
+                                <option><500</option>
+                                <option><1000</option>
+                                <option><2000</option>
+                                <option><3000</option>
+                                <option>3000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="formControlTextarea1">Give us the run down</label>
+                            <textarea class="form-control" id="formControlTextarea1" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input class="btn btn-lg form-button" type="submit" value="Submit">
                         </div>
                     </form>
 

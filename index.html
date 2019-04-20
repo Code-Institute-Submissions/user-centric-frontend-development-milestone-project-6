@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Cabin%7CUbuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>The Monkees</title>
@@ -28,70 +27,44 @@
                     <img src="../assets/images/monkees-logo.png" id="logo"></img>
                 </div>
 
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle hidden-md-up" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                        <a class="dropdown-item" type="button" href="music.html"></a>
-                        <button class="dropdown-item" type="button">Another action</button>
-                        <button class="dropdown-item" type="button">Something else here</button>
-                    </div>
-                </div>
-                
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-                <ul class="list-inline nav navbar-nav">
+                <ul class="list-inline nav navbar-nav d-none d-md-block">
                     <li class="inline-item"><a href="music.html">Music</a></li>
-                    <li class="inline-item"><a href="#">Videos</a></li>
-                    <li class="inline-item"><a href="#">Fan Experiences</a></li>
                     <li class="inline-item"><a href="bookings.html">Book the Boys</a></li>
                 </ul>
--->
+
+
+                <div class="dropdown d-md-none">
+                    <button class="btn btn-secondary dropdown-toggle hidden-md-up" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Monkee Menu</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                        <a class="dropdown-item" type="button" href="music.html">Music</a>
+                        <a class="dropdown-item" type="button" href="bookings.html">Bookings</button>
+                        <a class="dropdown-item" type="button">Yet to fill</a>
+                    </div>
+                </div>
+
+            </div>
 
         </nav>
 
 
     </header>
 
-    <!-- Callout <-->
+    <!-- Callout -->
 
 
     <div class="container-fluid callout-container">
-        <!--<div class="opaque-overlay">&nbsp;</div>-->
         <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <span class="jumbotron-pic"></span>
-
-                    <!---- Javascript --->
-
-
-                    <button class="btn btn-lg btn--red btn--cta" data-toggle="" data-target="#">Book us!!</button>
-                    <span class="text-muted"> Please listen responsibly! </span>
-
-                    <!-- / end of javascript -->
+            <div class="col-12 d-none d-lg-block">
+                <section class="callout jumbotron text-center rounded-edges">
+                    <img class="callout-pic" src="/assets/images/the-monkees-jail.jpg" alt="callout picture"></img>
+                    <div class="jumbotron-link">
+                        <a class="btn btn-red btn-lg" href="bookings.html">Book us!!</a>
+                    </div>
+                    <div class="jumbotron-btn">
+                        <span><p> We're looking forward to playing for you</p></span>
+                    </div>
 
                 </section>
             </div>
@@ -107,6 +80,8 @@
         <div class="row">
             <div class="offset-3 col-md-6">
                 <h1 class="headings">Introducing...</h1>
+                <p class="monkees-intro">From the hit tv show, to selling more than 75 million records, to your party!</p>
+                <h2>The Monkees</h2>
                 <div class="homepage-video">
                     <video class="video" poster="/assets/images/background.jpg" controls>
                     <source src="/assets/videos/the_monkees.mp4" type="video/mp4">
@@ -136,11 +111,11 @@
                 <hr class="spacer-monkee">
                 <div class="bio-individual">
                     <a href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" class="mug-shot" target="_blank">
-                        <img class="center" src="/assets/images/davy-jones.jpg" id="mug-shot"></img>
+                        <img class="center rounded-edges" src="/assets/images/davy-jones.jpg" id="mug-shot"></img>
                         <h3 class="header-monkee">Davy Jones</h3>
                     </a>
 
-                    <div class="media">
+                    <div class="media rounded-edges">
                         <blockquote class="blockquote text-centre">
                             <p>"You can put me in the basement or the penthouse; it doesn't matter to me. "</p>
                             <div class="signature">
@@ -159,11 +134,11 @@
                 <hr class="spacer-monkee">
                 <div class="bio-individual">
                     <a href="https://en.wikipedia.org/wiki/Michael_Nesmith" class="mug-shot" target="_blank">
-                        <img class="center" src="/assets/images/michael-nesmith.jpg" id="mug-shot"></img>
+                        <img class="center rounded-edges" src="/assets/images/michael-nesmith.jpg" id="mug-shot"></img>
                         <h3 class="header-monkee">Michael Nesmith</h3>
                     </a>
 
-                    <div class="media">
+                    <div class="media rounded-edges">
                         <blockquote class="blockquote text-centre">
                             <p>"There are more honest people and more good people than there are thieves and bad people. It's just always been that way. People recognize intellectual property the same way they recognize real estate."</p>
                             <div class="signature">
@@ -184,11 +159,11 @@
                 <hr class="spacer-monkee">
                 <div class="bio-individual">
                     <a href="https://en.wikipedia.org/wiki/Peter_Tork" class="mug-shot" target="_blank">
-                        <img class="center" src="/assets/images/peter-tork.jpg" id="mug-shot"></img>
+                        <img class="center rounded-edges" src="/assets/images/peter-tork.jpg" id="mug-shot"></img>
                         <h3 class="header-monkee">Peter Tork</h3>
                     </a>
 
-                    <div class="media">
+                    <div class="media rounded-edges">
                         <blockquote class="blockquote text-centre">
                             <p>"I can't say if my finest hour is yet to come, you want to make a dent in this world, well I do anyway. It was so much fun to do, play the blues and then play a Monkees' set on the same night. I don't know about friends, but
                                 what time I spent with The Beatles they were very courteous to me."</p>
@@ -207,11 +182,11 @@
                 <hr class="spacer-monkee">
                 <div class="bio-individual">
                     <a href="https://en.wikipedia.org/wiki/Micky_Dolenz" class="mug-shot" target="_blank">
-                        <img class="center" src="/assets/images/micky-dolenz.jpg" id="mug-shot" ></img>
+                        <img class="center rounded-edges" src="/assets/images/micky-dolenz.jpg" id="mug-shot" ></img>
                         <h3 class="header-monkee">Micky Dolenz</h3>
                     </a>
 
-                    <div class="media">
+                    <div class="media rounded-edges">
                         <blockquote class="blockquote text-centre">
                             <p>"My parents were both in show business. My father was an actor, my mom an actress, and both singers, dancers and actors. They met in Los Angeles doing a play together and so I grew up in a show biz family."</p>
                             <div class="signature">
