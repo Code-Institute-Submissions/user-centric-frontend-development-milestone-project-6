@@ -15,6 +15,16 @@ html {
 }
 
 
+.opaque-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+    
+}
 
 a {
     font-family: 'Indie Flower', cursive;
@@ -56,8 +66,6 @@ p {
 /*------------------------ Header */
 
 .navbar {
-    top: 0;
-    left: 0;
     background-color: transparent;
     font-style: italic;
     font-size: 1em;
@@ -65,14 +73,25 @@ p {
     width: 100vw;
     height: 170px;
     margin: 10px 0 50px;
-    z-index: 1;
+    z-index: 99999;
+}
+
+.item-highlight-purple {
+    background-color: rgba(153,50,204,0.5);
+    margin: 0px;
+    padding: 10px;
+}
+
+.item-highlight-black {
+    background-color: rgba(192,192,192,0.5);
+    margin: 0;
+    padding: 10px;
 }
 
 
 .navbar-brand {
     font-weight: 900;
     font-size: 2em;
-    color: #000000;
     margin-right: 20px;
 
 }
@@ -80,6 +99,7 @@ p {
 .navbar-nav {
     display: inline-block;
 }
+
 
 
 .inline-item {
@@ -95,6 +115,8 @@ p {
     height: 90px;
     width: 120px;
 }
+
+
 
 /* dropdown */
 
@@ -172,12 +194,18 @@ p {
 
 /* Videos */
 
+.homepage-video {
+    padding: 50px 50px 50px 50px;
+}
+
 .video {
     width: 100%;
     height: 100%;
     border-width: 5px;
     border-style: dotted solid;
 }
+
+
 
 
 /* bookings */
@@ -263,7 +291,7 @@ p {
 }
 
 .media {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 15px;
 }
 
@@ -298,7 +326,7 @@ p {
     margin-top: 38px;
 }
 
-.albums>ol {
+.albums > ol {
     display: block;
     list-style-type: decimal;
     margin: 1em 0 1em 0;
@@ -306,7 +334,8 @@ p {
 }
 
 .track-list {
-    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .album-cover {
@@ -334,6 +363,18 @@ p {
 
 
 
+.picture-container{
+    text-align: center;
+    
+} 
+
+.picture-image {
+    display: inline-table;
+    max-height: 250px;
+    max-width: 250px;
+    margin: 15px 15px 15px 0;
+}
+
 
 
 
@@ -360,12 +401,12 @@ footer {
 }
 
 
-
+.merch-section{
+    text-align: center;
+}
 
 .merch {
-    text-align: center;
-
-
+    display: inline-block;
 }
 
 .general-sub {
@@ -378,8 +419,27 @@ footer {
     text-shadow: 2px 2px #ff0000;
 }
 
-.book-now {
-    height: 150px;
+.bookings-link{
+    text-align: center;
+    
+}
+
+.booking-the-boys{
+    display: inline-block;
+}
+
+.footer-pictures {
+    max-height: 177px;
+}
+
+.social-header{
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+    text-shadow: 2px 2px #ff0000;
+    cursor: pointer;
+    text-shadow: 2px 2px #ff0000;  
 }
 
 .social-links li a i {
@@ -402,7 +462,7 @@ footer {
 
 
 @media only screen and (max-width: 768px){
-    .book-now {
+    .footer-pictures {
         display: none;
     }
 }
