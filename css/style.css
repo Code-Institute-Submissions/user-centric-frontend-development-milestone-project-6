@@ -380,6 +380,18 @@ p {
 
 /* pictures.html*/
 
+.heading-container{
+    text-align: center;
+}
+
+.pictures-heading{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 66%;
+    margin-bottom: 50px;
+    padding: 0 15px 0 15px;
+}
+
 .picture-image {
 
     position: relative;
