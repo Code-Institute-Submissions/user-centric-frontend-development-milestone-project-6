@@ -95,7 +95,7 @@ For testing this project I have...
 
 ### Deployment
 
-This project was developed using the Cloud9 IDE and deployed to the online repository GitHub. 
+This project was developed using the Cloud9 IDE and deployed to the online repository GitHub using Bash. 
 
 
 
