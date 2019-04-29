@@ -1,12 +1,42 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project.
+# Get Funky with the Monkees - User Centric Frontend Development Milestone Project One. 
 
+## Why?
+
+This project is my first solo worked assignment for Code Insitute as I work my way through their year long Fullstack Web Developer course. 
+The goal of this project is to develope a user centric website based on the idea of selling the well known band "The Monkees" and providing a platform where they can be booked for live shows. 
+
+## How? 
+
+I have utilised 2 languages and one framework in order to complete this project. The languages used are HTML5 and CSS3 whiles the framework used is Bootstrap 4.
+
+///***** This project also includes images, videos and music from multiple sources online. I would like to note that I do not claim to own any of the information/media contained within this webpage and all rights to the media used belongs to Time/Warner/AOL and Columbia/SONY. Iff there are any issues regarding the use of said media contained in this site, then I can be contacted via GitHub and I will be more than happy to renove any offending materials. 
 Essentially, this part is your sales pitch.
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## UX
+
+With booking the band being the specific goal of getting the end user to book to the band, I made sure to include anything that I taught would showcase the band in a pretty straight forward manor so as the keep the pages from including too much information and bombarding the user with useless information. Due to this site being specificly about booking the band, I felt that there were no specific age groupings or target audience as the band has enjoyed continued popularity for the past 50 years by audiences of all ages.
+My UX was designed with the idea of directing the user to the bookings page. When the page is opened on larger displays, there is a jumbotron open with an attention grabbing picture that has a "book us" button directly beneath. The same button is also located in the navbar and footer on every p[age so that the user is always able to get the booking screen.
+The site is designed in such a way that the the footer and the navbar include all of the vital navigation links and are easy to find for the end user. 
+On large displays the webpage displays a jumbotron, a navigation menu on the top for getting to the different pages of the website and a footer with links to merchandise, another to the booking page and then links to the bands different social media accounts.
+These are designed so that the jumbotron itself disappears to just leave the media on the page, the picture-anchors in the footer disapear so that just the anchor sentances remain and my navigation options also collaps into a dropdown menu so that it will save the site from looking clutered.
+
+
+## User Stories
+
+“I have been a fan of the band since their inception in the 60's, I want to be able to use the site easily as I'm not too familiar or skilled with using computers”
+
+“As a student, I am used to using the internet to locate what I need but I dont know much about the actual band. Id like to know before making a final decision on who Im going to hire for my party" 
+
+“As the client, I want to page to be as layed out as straightforward as possible so that the time it takes to develope the site doesnt run at too high a cost but also serves its purpose of getting our brand out to potential customers”
+
+### Wireframes pre-project
+
+Inline-style: 
+![wireframe_image_one](wireframes/book_the_boys.png)
+
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
