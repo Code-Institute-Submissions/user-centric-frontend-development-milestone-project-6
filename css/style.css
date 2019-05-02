@@ -4,8 +4,6 @@
 
 body,
 html {
-    width: 100%;
-    height: 100%;
     background: url("/assets/images/groovy.jpg");
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -14,17 +12,6 @@ html {
     background-size: cover;
 }
 
-
-.opaque-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.05);
-
-
-}
 
 a {
     font-family: 'Indie Flower', cursive;
@@ -171,10 +158,11 @@ p {
 
 }
 
-.jumbotron.header{
+.jumbotron-header {
     font-family: 'Indie Flower', sans-serif;
     font-size: 20px;
 }
+
 .jumbotron-link {
     margin: 15px 0 15px;
 }
@@ -227,12 +215,11 @@ p {
 /* Videos */
 
 .homepage-video {
-    padding: 50px 50px 50px 50px;
+    max-width: 600px;
 }
 
 .video {
     width: 100%;
-    height: 100%;
     border-width: 5px;
     border-style: dotted solid;
 }
@@ -262,10 +249,9 @@ p {
     margin: 15px 0 15px;
 }
 
-.bio-individual{
+.bio-individual {
     width: 20em;
     height: 25em;
-    position: inherit;
     margin-left: auto;
     margin-right: auto;
 }
@@ -273,7 +259,6 @@ p {
 .mug-shot {
     width: 15em;
     height: 20em;
-    position: inherit;
     margin-left: auto;
     margin-right: auto;
 }
@@ -358,6 +343,8 @@ p {
     margin-top: 38px;
 }
 
+.albums {}
+
 .albums>ol {
     display: block;
     list-style-type: decimal;
@@ -366,13 +353,13 @@ p {
 }
 
 .track-list {
-    padding: 15px;
+    padding: 15px 30px 15px 30px;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
 .album-cover {
-    width: 18em;
-    height: 18em;
+    width: 14em;
+    height: 14em;
 }
 
 
@@ -393,11 +380,11 @@ p {
 
 /* pictures.html*/
 
-.heading-container{
+.heading-container {
     text-align: center;
 }
 
-.pictures-heading{
+.pictures-heading {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.5);
     max-width: 66%;
