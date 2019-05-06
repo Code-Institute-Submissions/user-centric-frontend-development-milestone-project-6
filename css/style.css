@@ -61,7 +61,7 @@ p {
     width: 100vw;
     height: 170px;
     margin: 10px 0 50px;
-    z-index: 99999;
+    
 }
 
 .navbar-toggler {
@@ -250,7 +250,6 @@ p {
 }
 
 .bio-individual {
-    width: 20em;
     height: 25em;
     margin-left: auto;
     margin-right: auto;
