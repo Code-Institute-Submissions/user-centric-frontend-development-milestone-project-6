@@ -95,8 +95,14 @@ For testing this project I have...
 
 ### Deployment
 
-This project was developed using the Cloud9 IDE and deployed to the online repository GitHub using Bash. 
+In order to deploy this project you must...
 
+1. Go to https://github.com/Didgerydont/user-centric-frontend-development-milestone-project
+2. Go to the top of the page and click on settings
+3. Go about 3/4's of the way down the page until reach GitHub pages and make sure the source is set to master branch
+4. Follow the generated link to the project
+
+Here is the link if you dont feel like following the steps... [Project Repository](https://didgerydont.github.io/user-centric-frontend-development-milestone-project/)
 
 
 ### Credits
